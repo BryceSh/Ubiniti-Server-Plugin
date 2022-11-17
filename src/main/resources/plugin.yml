@@ -1,0 +1,20 @@
+name: Dev
+version: '${project.version}'
+main: ubin.dev.dev.Dev
+api-version: 1.19
+commands:
+  development:
+    description: Open's the development menu
+    usage: /<command>
+
+  broadcast:
+    description: Send a message to everyone in the server!
+    usage: /<command> [chat | title] [message]
+
+  smartrestart:
+    description: A new smart way to restart a server
+    usage: /<command> [reason]
+
+  punish:
+    description: Punish players for being bad.
+    usage: /<command> [player]
