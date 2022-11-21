@@ -1,5 +1,6 @@
 package ubin.dev.dev.commands;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -18,7 +19,12 @@ public class punishCommand implements CommandExecutor {
             if (player.isOp()) {
 
                 if (strings.length == 1) {
-
+                    Player target = Bukkit.getPlayer(strings[0]);
+                    if (target != null && target.isOnline()) {
+                        punishGui.openPunishmentGui(player, target);
+                    } else {
+                        player.sendMessage("Player is offline!");
+                    }
                 } else {
                     player.sendMessage(Dev.chatPrefix + "Invalid Usage! " + ChatColor.GOLD + "/punish {username}");
                 }

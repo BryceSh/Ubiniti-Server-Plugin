@@ -1,0 +1,4 @@
+clearChatMessage: "Chat has been cleared by {user}"
+
+# Chat Manager Options
+opsChatOnLock: true         # true or false. Allow ops to chat when chat is locked

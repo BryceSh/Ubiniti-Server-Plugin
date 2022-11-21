@@ -18,3 +18,7 @@ commands:
   punish:
     description: Punish players for being bad.
     usage: /<command> [player]
+
+  chat:
+    description: A set of tool to manage your chat!
+    usage: /<command>
