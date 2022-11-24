@@ -22,3 +22,11 @@ commands:
   chat:
     description: A set of tool to manage your chat!
     usage: /<command>
+
+  testing:
+    description: This is a testing command. Must be oped!
+    usage: /<command>
+
+  dev:
+    description: Plugin information
+    usage: /<command>

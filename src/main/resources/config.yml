@@ -2,3 +2,12 @@ clearChatMessage: "Chat has been cleared by {user}"
 
 # Chat Manager Options
 opsChatOnLock: true         # true or false. Allow ops to chat when chat is locked
+
+# Smart Restart Options
+announceRestarts: true
+customPlayerCounter: 1
+
+motdTitle: "MOTD Title"
+motdFooter: "MOTD Footer"
+motdTitleCenter: true
+motd
