@@ -10,4 +10,4 @@ customPlayerCounter: 1
 motdTitle: "MOTD Title"
 motdFooter: "MOTD Footer"
 motdTitleCenter: true
-motd
+motdFooterCenter: true

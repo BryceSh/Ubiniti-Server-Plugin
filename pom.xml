@@ -6,7 +6,7 @@
 
     <groupId>ubin.dev</groupId>
     <artifactId>dev</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.4-INDEV</version>
     <packaging>jar</packaging>
 
     <name>Dev</name>

@@ -15,9 +15,9 @@ commands:
     description: A new smart way to restart a server
     usage: /<command> [reason]
 
-  punish:
-    description: Punish players for being bad.
-    usage: /<command> [player]
+#  punish:
+#    description: Punish players for being bad.
+#    usage: /<command> [player]
 
   chat:
     description: A set of tool to manage your chat!

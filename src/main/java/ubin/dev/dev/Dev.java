@@ -31,7 +31,7 @@ public final class Dev extends JavaPlugin {
         getCommand("development").setExecutor(new MainCommand());
         getCommand("broadcast").setExecutor(new broadcastCommand());
         getCommand("smartrestart").setExecutor(new smartRestart());
-        getCommand("punish").setExecutor(new punishCommand());
+        //getCommand("punish").setExecutor(new punishCommand());
         getCommand("chat").setExecutor(new chatCommand());
         getCommand("testing").setExecutor(new testingClass());
         getCommand("dev").setExecutor(new devCommand());

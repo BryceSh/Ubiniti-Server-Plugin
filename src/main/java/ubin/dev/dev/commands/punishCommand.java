@@ -18,16 +18,18 @@ public class punishCommand implements CommandExecutor {
             Player player = (Player) commandSender;
             if (player.isOp()) {
 
-                if (strings.length == 1) {
-                    Player target = Bukkit.getPlayer(strings[0]);
-                    if (target != null && target.isOnline()) {
-                        punishGui.openPunishmentGui(player, target);
-                    } else {
-                        player.sendMessage("Player is offline!");
-                    }
-                } else {
-                    player.sendMessage(Dev.chatPrefix + "Invalid Usage! " + ChatColor.GOLD + "/punish {username}");
-                }
+                player.sendMessage(Dev.chatPrefix + ChatColor.GOLD + "Punish command is currently unavailable!");
+                return true;
+//                if (strings.length == 1) {
+//                    Player target = Bukkit.getPlayer(strings[0]);
+//                    if (target != null && target.isOnline()) {
+//                        punishGui.openPunishmentGui(player, target);
+//                    } else {
+//                        player.sendMessage("Player is offline!");
+//                    }
+//                } else {
+//                    player.sendMessage(Dev.chatPrefix + "Invalid Usage! " + ChatColor.GOLD + "/punish {username}");
+//                }
 
             } else {
                 player.sendMessage(Dev.chatPrefix + "Invalid Permissions!");
